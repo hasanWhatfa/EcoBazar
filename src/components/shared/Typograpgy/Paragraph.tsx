@@ -11,7 +11,7 @@ interface Props {
   weight?: Weight
 }
 
-export default function Heading({ children, size = "p18", className = "", weight = "medium" }: Props) {
+export default function Paragraph({ children, size = "p18", className = "", weight = "medium" }: Props) {
   const sizeClass = {
     p24: "text-[4.10256vw] md:text-[2.25vw] lg:text-[1.3888vw] xl:text-[1.25vw]",
     p20: "text-[3.5897vw] md:text-[2vw] lg:text-[1.25vw] xl:text-[1.04166vw]",
