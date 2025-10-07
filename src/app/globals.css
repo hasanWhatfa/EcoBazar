@@ -2,8 +2,8 @@
 
 @theme {
   --color-Sprimary: #84D187;
-  --color-Primary: #00B207;
-  --color-Hprimary: #2C742F;
+  --color-Success: #00B207;
+  --color-SuccessD: #2C742F;
   --color-Warning: #FF8A00;
   --color-Danger: #EA4B48;
   --color-White: #FFFFFF;
@@ -44,4 +44,5 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-poppins: var(--font-poppins);
 }
